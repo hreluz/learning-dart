@@ -51,5 +51,21 @@ main() {
 
   villains[0] = 'Joker';
 
+  villains.add('Green Goblin');
+  villains.add('Green Goblin');
+  villains.add('Green Goblin');
+
   print(villains);
+
+  var villainsSet = villains.toSet();
+  print(villainsSet);
+
+  // ===== Sets
+  var villains2 = {'Lex', 'Red Skull', 'Doom'};
+
+  villains2.add('Green Goblin');
+  villains2.add('Green Goblin');
+  villains2.add('Green Goblin');
+
+  print(villains2);
 }
