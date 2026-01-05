@@ -15,4 +15,26 @@ main() {
   print(result);
 
   print(c);
+
+  // === String
+
+  String name = 'Bruce';
+  String? name2 = "Tony";
+  String name3 = 'O\'Connor';
+  String lastName = 'Wayne';
+
+  String fullName = '$name $lastName';
+
+  String multiline = '''
+  Hello World
+  How are u?
+  $name2
+  O'Connor
+''';
+
+  print(name);
+  print(name2);
+  print(name3);
+  print(multiline);
+  print(fullName);
 }
