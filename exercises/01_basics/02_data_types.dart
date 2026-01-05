@@ -68,4 +68,32 @@ main() {
   villains2.add('Green Goblin');
 
   print(villains2);
+
+  // === Maps
+  var ironman = {
+    'name': 'Tony Stark',
+    'power': 'Intelligence and money',
+    'level': 9000,
+  };
+
+  print(ironman);
+  print(ironman['level']);
+
+  Map<double,dynamic> ironman2 = {
+    1.0 : 'Tony Stark',
+    1.5 : 'Intelligence and money',
+    2.0 : 9000,
+  };
+
+  print(ironman2);
+
+  Map<String, dynamic> captain = new Map();
+
+  captain.addAll({
+    'name': 'Steve',
+    'power': 'strength',
+    'level': 5000
+  });
+
+  print(captain);
 }
