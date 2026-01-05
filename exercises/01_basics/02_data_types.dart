@@ -45,4 +45,11 @@ main() {
   print(isActive);
   print(isNotActive);
   print(isNotActive!);
+
+  // ==== Lists
+  List<String> villains = ['Lex', 'Red Skull', 'Doom'];
+
+  villains[0] = 'Joker';
+
+  print(villains);
 }
