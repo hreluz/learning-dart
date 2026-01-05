@@ -37,4 +37,12 @@ main() {
   print(name3);
   print(multiline);
   print(fullName);
+
+  // === Booleans
+  bool isActive = true;
+  bool isNotActive = !isActive;
+
+  print(isActive);
+  print(isNotActive);
+  print(isNotActive!);
 }
