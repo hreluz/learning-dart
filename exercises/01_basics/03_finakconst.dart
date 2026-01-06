@@ -3,6 +3,13 @@ main() {
   final double b = 10;
   const double c = 10;
 
+  final double z;
+
+  late final double x;
+
+  x = 10;
+  print(x);
+
   // a = 20;
   // b = 20;
   // c = 20;
@@ -15,7 +22,7 @@ main() {
   List<String> peopleConst2  = const['Bruce', 'Clark', 'John'];
 
   peopleFinal.add('Diana');
-  peopleConst.add('Diana');
+  // peopleConst.add('Diana');
 
   print(peopleFinal);
   print(peopleConst);
