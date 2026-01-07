@@ -1,10 +1,9 @@
 main() {
-  print('Hello there');
-  greetings('Batman');
+
+  var message = greetings();
+  print(message);
 }
 
-greetings(String name) {
-  print('Hello ${name}');
-
-  return 0;
+String greetings() {
+  return 'Hello batman';
 }
