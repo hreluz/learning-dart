@@ -10,7 +10,7 @@ void main(List<String> args) async {
   print('end of main');
 }
 
-readFile(String path) async {
+Future<String> readFile(String path) async {
   File file = new File(path);
 
   return file.readAsString();
