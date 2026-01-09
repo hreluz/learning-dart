@@ -15,8 +15,11 @@ class Client extends Person {
     super(currentName, currentAge);
 
 
-    @override
-  void printName() => print('Client: $name ($age)');
+  @override
+  void printName() {
+    super.printName();
+    print('Client: $name ($age)');
+  }
 }
 
 void main(List<String> args) {
