@@ -14,6 +14,8 @@ class Person {
     _bio = text;
   } 
 
+  Person({ this.age, this.name});
+
   @override
   String toString() {
     return '$name $age $_bio';
