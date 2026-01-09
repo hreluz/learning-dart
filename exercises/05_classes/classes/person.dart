@@ -16,10 +16,13 @@ class Person {
 
   Person({ this.age, this.name});
 
+  Person.person30(this.name) {
+    this.age = 30;
+  }
+
   @override
   String toString() {
     return '$name $age $_bio';
   }
-
 }
 
