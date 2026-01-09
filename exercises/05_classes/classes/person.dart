@@ -1,12 +1,12 @@
 class Person {
   String? name;
   int? age;
-  String? bio;
+  String? _bio;
 
 
   @override
   String toString() {
-    return '$name $age $bio';
+    return '$name $age $_bio';
   }
 
 }
